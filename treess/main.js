@@ -46,7 +46,7 @@ const CreateContent = (tree) => {
     treeNameElement.innerText = "Ekilen Ağaç";
     
     treeNameElement.style.color = 'black';
-    treeNameElement.style.fontSize = '15px';
+    treeNameElement.style.fontSize = '14px';
     treeNameElement.style.fontWeight = 'bold';
     treeNameElement.style.fontFamily = 'sans-serif';
     treeNameElement.style.textAlign = 'center';

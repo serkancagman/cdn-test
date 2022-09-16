@@ -1,12 +1,11 @@
 const mainElement = document.getElementById('TreeContent');
 const baseUrl = "https://tree-jungle.herokuapp.com/api"
 
-
+console.log(mainElement);
 const getTree = async () => {
     const response = await fetch(`${baseUrl}/tree/three_forest_jungle@natural.com`);
     const data = await response.json();
     const tree = data[0];
-    console.log("tree", tree);
    if(tree) {
     CreateContent(tree);
    }

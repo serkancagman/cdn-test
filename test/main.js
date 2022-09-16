@@ -60,6 +60,7 @@ const CreateContent = (tree) => {
     treeSubElement.style.width = '100%';
     treeSubElement.style.alignItems = 'center';
     treeSubElement.style.flexDirection = 'column';
+    treeSubElement.style.backgroundColor = '#F8FCFA';
     treeSubElement.style.paddingTop = '5px';
     treeSubElement.style.paddingBottom = '5px';
  

@@ -21,7 +21,7 @@ const CreateContent = (tree) => {
     const treeSubElement = document.createElement('div');
 
     // MAIN ELEMENT
-    treeElement.style.backgroundColor = '#F8FCFA !important';
+    treeElement.style.backgroundColor = '#F8FCFA';
     treeElement.style.display = "block";
     treeElement.style.maxHeight = '70px';
     treeElement.style.maxWidth = '200px';
@@ -52,6 +52,7 @@ const CreateContent = (tree) => {
     treeNameElement.style.textAlign = 'center';
     treeNameElement.style.margin = '0px';
     treeNameElement.style.padding = '3px';
+    treeNameElement.style.backgroundColor = '#F8FCFA';
 
    
  // SUB ELEMENT
@@ -69,7 +70,7 @@ const CreateContent = (tree) => {
     treeQuantityElement.innerText = tree.quantity;
     treeQuantityElement.style.margin = '0px';
     treeQuantityElement.style.color = 'black';
-    treeQuantityElement.style.backgroundColor = '#F8FCFA !important';
+    treeQuantityElement.style.backgroundColor = '#F8FCFA';
     
     treeSubElement.appendChild(treeNameElement);
     treeSubElement.appendChild(treeQuantityElement);

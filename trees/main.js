@@ -23,8 +23,8 @@ const CreateContent = (tree) => {
     // MAIN ELEMENT
     treeElement.style.backgroundColor = '#F8FCFA';
     treeElement.style.display = "block";
-    treeElement.style.maxHeight = '70px';
-    treeElement.style.maxWidth = '200px';
+    treeElement.style.height = '70px';
+    treeElement.style.width = '200px';
     treeElement.style.margin = '10px';
     treeElement.style.borderRadius = '0';
     treeElement.style.display = 'flex';
@@ -62,8 +62,7 @@ const CreateContent = (tree) => {
     treeSubElement.style.alignItems = 'center';
     treeSubElement.style.flexDirection = 'column';
     treeSubElement.style.backgroundColor = '#F8FCFA';
-    treeSubElement.style.paddingTop = '5px';
-    treeSubElement.style.paddingBottom = '5px';
+    treeSubElement.style.padding = '5px';
  
     // QUANTITY ELEMENT
 
